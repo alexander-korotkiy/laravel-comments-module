@@ -10,7 +10,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Modules\\Comments\\Providers\\CommentsServiceProvider"
+                "Deka\\Comments\\Application\\Providers\\CommentsServiceProvider",
+                "Deka\\Common\\Bus\\Application\\Providers\\BusServiceProvider"
             ],
             "aliases": {
                 
@@ -19,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Modules\\Comments\\": ""
+            "Deka\\Comments\\": ""
         }
     }
 }
